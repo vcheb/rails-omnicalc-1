@@ -1,0 +1,34 @@
+
+<dl>
+  <dt>
+    APR
+  </dt>
+  <dd>
+   <%= @user_apr_with_percent%>
+  </dd>
+
+  <dt>
+    Number of years
+  </dt>
+  <dd>
+   <%= @user_years%>
+  </dd>
+
+  <dt>
+    Principal
+  </dt>
+  <dd>
+    <%=@user_pv_currency%>
+  </dd>
+
+  <dt>
+    Payment
+  </dt>
+  <dd>
+    <%=@payment%>
+  </dd>
+</dl>
+
+<a href="/payment/new">
+  Calculate another payment
+</a>
